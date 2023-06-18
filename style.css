@@ -77,7 +77,7 @@ button {
     font-size: 18px;
     border-radius: 6px;
     color:#f9faf8;
-    
+    border:2px solid white;
     padding: 5px 15px;
 
 }
@@ -93,11 +93,8 @@ button {
 
 
 .second-box {
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-    margin: 50px auto;
-    flex: 1;
+    text-align: center;
+    margin: 50px 150px;   
 }
 
 .second-box-title {
@@ -110,8 +107,12 @@ button {
 .boxes {
     display: flex;
     gap: 50px;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.info {
+    flex: 1;
 }
 
 .info-image  {
@@ -122,7 +123,6 @@ button {
 
 .img-text {
     font-size: 18px;
-    text-align: center;
 }
 
 .third-box {
@@ -153,21 +153,58 @@ button {
 
 .author {
     align-self: center;
-    font-weight: bold;
-    
-
-    
+    font-weight: bold;   
 }
 
 
+.fourth-box {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding: 20px ;
+    flex: 1;
+    
+}
+
+.warn-box {
+    background-color: #3882f6;   
+    padding: 10px 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 800px;
+    box-shadow: 2px 2px grey; 
+}
 
 
+.warn-but {
+    align-self: flex-end;
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 6px;
+    color:#f9faf8;
+    border:2px solid white;
+    padding: 5px 15px;
+}
 
 
+.text-box .warning {
+    font-size:18px ;
+    font-weight: bolder;
+    color:#e5e7eb;
+}
 
+.text-box .sub-text {
+    font-size:18px ;
+    color:#e5e7eb;
+}
 
 .footer {
     background-color: #1f2937;
     color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
 }
 
